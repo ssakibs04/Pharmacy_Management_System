@@ -28,5 +28,5 @@ Collaboration
 This project was made possible with the contributions of the following collaborators:
 
 [Sadman Sakib](https://github.com/ssakibs04)<br>
-[Athoy Kanti Ray](https://github.com/ATHOY43259)
+[Athoy Kanti Ray](https://github.com/ATHOY43259)<br>
 Irfan
