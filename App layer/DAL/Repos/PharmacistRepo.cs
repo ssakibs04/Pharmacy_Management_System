@@ -8,32 +8,37 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    public class PharmacistRepo : Repo, IProfile<Pharmacist, int, bool>
+    public class PharmacistRepo : Repo, IProfile<Staff, int, bool>
     {
         public bool Add(Cart data)
         {
             throw new NotImplementedException();
         }
 
-        public bool Create(Pharmacist obj)
+        public bool Create(Staff obj)
         {
             db.Pharmacists.Add(obj);
             return db.SaveChanges() > 0;
         }
 
-        public bool Delete(int id)
+		public object Create(Discount data)
+		{
+			throw new NotImplementedException();
+		}
+
+		public bool Delete(int id)
         {
             var pharmacist = Get(id);
             db.Pharmacists.Remove(pharmacist);
             return db.SaveChanges() > 0;
         }
 
-        public List<Pharmacist> Get()
+        public List<Staff> Get()
         {
             return db.Pharmacists.ToList();
         }
 
-        public Pharmacist Get(int id)
+        public Staff Get(int id)
         {
             return db.Pharmacists.Find(id);
         }
@@ -43,11 +48,16 @@ namespace DAL.Repos
             throw new NotImplementedException();
         }
 
-        public bool Update(Pharmacist obj)
+        public bool Update(Staff obj)
         {
             var pharmacist = Get(obj.Id);
             db.Entry(pharmacist).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0;
         }
-    }
+
+		public bool Update(Discount data)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DataAccessFactory
     {
-        public static IProfile<Pharmacist, int, bool> PharmacistData()
+        public static IProfile<Staff, int, bool> PharmacistData()
         {
             return new PharmacistRepo();
         }
@@ -29,6 +29,20 @@ namespace DAL
         public static IProfile<Medicine, int, bool> MedicineData()
         {
             return new MedicineRepo();
+        } 
+        
+        public static IProfile<Stock, int, bool> StockData()
+        {
+            return new StockRepo();
+        }
+     public static IProfile<Supplier, int, bool> SupplierData()
+        {
+            return new SupplierRepo();
+        }
+        
+        public static IProfile<Discount, int, bool> DiscountData()
+        {
+            return new DiscountRepo();
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models.Entities
 {
-    public class Pharmacist
+    public class Staff
     {
         [Key]
         public int Id { get; set; }

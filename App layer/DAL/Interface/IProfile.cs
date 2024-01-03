@@ -16,5 +16,7 @@ namespace DAL.Interface
         bool Delete(ID id);
         List<Cart> GetCart(int medicine_id);
         bool Add(Cart data);
-    }
+		object Create(Discount data);
+		bool Update(Discount data);
+	}
 }

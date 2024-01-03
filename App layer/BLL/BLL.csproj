@@ -44,20 +44,31 @@
   <ItemGroup>
     <Compile Include="Class.cs" />
     <Compile Include="DTOs\CartDTO.cs" />
+    <Compile Include="DTOs\DiscountDTO.cs" />
     <Compile Include="DTOs\MedicineDTO.cs" />
     <Compile Include="DTOs\PharmacistDTO.cs" />
     <Compile Include="DTOs\SaleDTO.cs" />
+    <Compile Include="DTOs\StockDTO.cs" />
+    <Compile Include="DTOs\SupplierDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serivces\CartService.cs" />
+    <Compile Include="Serivces\DiscountService.cs" />
     <Compile Include="Serivces\MedicineService.cs" />
     <Compile Include="Serivces\PharmacistService.cs" />
     <Compile Include="Serivces\SaleService.cs" />
+    <Compile Include="Serivces\StockService.cs" />
+    <Compile Include="Serivces\SupplierService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{c3ea866c-cb7f-4289-9643-3f23ddc84f50}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -38,17 +38,17 @@ namespace BLL.Serivces
             return Convert(data);
         }
 
-        static List<PharmacistDTO> Convert(List<Pharmacist> prj)
+        static List<PharmacistDTO> Convert(List<Staff> prj)
         {
             var data = new List<PharmacistDTO>();
-            foreach (Pharmacist i in prj)
+            foreach (Staff i in prj)
             {
                 data.Add(Convert(i));
             }
             return data;
         }
 
-        static PharmacistDTO Convert(Pharmacist prj)
+        static PharmacistDTO Convert(Staff prj)
         {
             return new PharmacistDTO()
             {
@@ -59,9 +59,9 @@ namespace BLL.Serivces
                 Password = prj.Password,
             };
         }
-        static Pharmacist Convert(PharmacistDTO prj)
+        static Staff Convert(PharmacistDTO prj)
         {
-            return new Pharmacist()
+            return new Staff()
             {
                 Id = prj.Id,
                 Name = prj.Name,

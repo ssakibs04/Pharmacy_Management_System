@@ -50,5 +50,15 @@ namespace DAL.Repos
             db.Entry(cart).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0;
         }
-    }
+
+		object IProfile<Cart, int, bool>.Create(Discount data)
+		{
+			throw new NotImplementedException();
+		}
+
+		bool IProfile<Cart, int, bool>.Update(Discount data)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

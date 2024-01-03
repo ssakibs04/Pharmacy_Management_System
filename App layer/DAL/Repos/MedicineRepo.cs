@@ -48,5 +48,15 @@ namespace DAL.Repos
             db.Entry(medicine).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0;
         }
-    }
+
+		object IProfile<Medicine, int, bool>.Create(Discount data)
+		{
+			throw new NotImplementedException();
+		}
+
+		bool IProfile<Medicine, int, bool>.Update(Discount data)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

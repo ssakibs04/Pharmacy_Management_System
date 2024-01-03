@@ -9,7 +9,7 @@ namespace DAL.Repos
 {
     public class Repo
     {
-        internal AppDBContext db;
+        internal AppDBContext db; 
         internal Repo()
         {
             db = new AppDBContext();    
