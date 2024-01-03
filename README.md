@@ -24,3 +24,10 @@ The Pharmacy Management System is built using ASP.Net with a SOLID architecture,
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/ssakibs04/Pharmacy_Management-_System.git
+Collaboration
+This project was made possible with the contributions of the following collaborators:
+
+[Sadman Sakib](https://github.com/ssakibs04)<br>
+[Athoy Kanti Ray](https://github.com/ATHOY43259)
+
+Collaborator Name 3
