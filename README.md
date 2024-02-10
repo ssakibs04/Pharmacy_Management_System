@@ -9,12 +9,12 @@ The Pharmacy Management System is built using ASP.Net with a SOLID architecture,
 ## Features
 
 - **Inventory Management:** Keep track of medicines, manage stock levels, and handle supplier information.
-- **Sales Management:** Process customer transactions, generate invoices, and maintain sales records.
+- **Sales Management:** Process customer transactions, generate invoices and maintain sales records.
 - **User Authentication:** Secure the system with user authentication for different roles.
 
 ## Technologies Used
 
-- **ASP.Net:** Backend development using ASP.Net .
+- **ASP.Net:** Backend development using ASP.Net.
 - **Entity Framework Core:** Efficient data access and database interactions.
 - **API:** Comprehensive API documentation.
 
