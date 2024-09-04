@@ -4,12 +4,12 @@ Welcome to the Pharmacy Management System, a web application designed to streaml
 
 ## Overview
 
-The Pharmacy Management System is built using ASP.Net with a SOLID architecture, offering a scalable and maintainable solution for pharmacy inventory and sales management.
+The Pharmacy Management System is built using ASP.Net with an N-tier(3-tier) architecture, offering a scalable and maintainable solution for pharmacy inventory and sales management.
 
 ## Features
 
 - **Inventory Management:** Keep track of medicines, manage stock levels, and handle supplier information.
-- **Sales Management:** Process customer transactions, generate invoices and maintain sales records.
+- **Sales Management:** Process customer transactions, generate invoices, and maintain sales records.
 - **User Authentication:** Secure the system with user authentication for different roles.
 
 ## Technologies Used
